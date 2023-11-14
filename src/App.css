@@ -1,0 +1,84 @@
+
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  font-family: fangsong;
+}
+
+.center-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+h1 {
+  animation: fadeIn 1.5s ease-in-out;
+  color: #3498db;
+}
+
+h2 {
+  color: #3498db;
+}
+
+.labelStyle {
+  margin-right: 10px;
+  color: #3498db;
+}
+
+.dropdown {
+ height: 33px;
+}
+
+.table-container {
+  padding: 1em;
+}
+
+.data-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.data-table th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.data-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+
+.line-chart-container {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+  padding: 1em;
+}
+
+.line-chart-dataset-1 {
+  border-color: #e74c3c;
+}
+
+.line-chart-dataset-2 {
+  border-color: #2ecc71;
+}
